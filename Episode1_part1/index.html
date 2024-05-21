@@ -8,7 +8,7 @@
   <body>
     <div id="root"></div>
     <!---Using HTML-->
-    <h1>Hello World!</h1>
+    <h1>Hello World! from plain HTML</h1>
 
     <!---Using JavaScript-->
     <script>
@@ -29,5 +29,15 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
+
+    <script>
+      const headingfromReact = React.createElement(
+        "h1",
+        {},
+        "Hello World from React!"
+      );
+      const root_react = ReactDOM.createRoot(document.getElementById("root"));
+      root_react.render(headingfromReact);
+    </script>
   </body>
 </html>
