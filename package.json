@@ -1,11 +1,11 @@
 {
-  "name": "episode2",
+  "name": "namaste_react",
   "version": "1.0.0",
-  "description": "Hands-on from Episode2 of Namaste React",
+  "description": "Namaste React Course",
   "main": "index.js",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -13,10 +13,10 @@
     "url": "git+https://github.com/RadhikaRJ/Namaste_React.git"
   },
   "keywords": [
-    "react"
+    "React"
   ],
   "author": "Radhika Joshi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RadhikaRJ/Namaste_React/issues"
   },
@@ -28,8 +28,5 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  },
-  "browserslist": [
-    "last 2 versions"
-  ]
+  }
 }
